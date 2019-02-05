@@ -17,13 +17,12 @@ input[type=text], input[type=password] ,input[type=email] , input[type=number] {
   background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
+
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Set a style for all buttons */
 button {
   background-color: #4CAF50;
   color: white;
@@ -39,52 +38,46 @@ button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
   width: 50%;
 }
 
-/* Add padding to container elements */
 .container {
   padding: 16px;
 }
 
-/* The Modal (background) */
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
   background-color: #474e5d;
   padding-top: 50px;
 }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% auto; 
   border: 1px solid #888;
-  width: 100%; /* Could be more or less, depending on screen size */
-}
+  width: 100%;
 
-/* Style the horizontal ruler */
+
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
  
-/* The Close Button (x) */
 .close {
   position: absolute;
   right: 35px;
@@ -100,7 +93,7 @@ hr {
   cursor: pointer;
 }
 
-/* Clear floats */
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -110,7 +103,7 @@ h3:hover {
   background-color: black;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 100%;
